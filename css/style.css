@@ -352,29 +352,30 @@ h3.my-profession
 {
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: -100px;
+    bottom: 90px;
 }
 .home-img::before
 {
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
+
 }
 .home .home-img img
 {
     margin: auto;
     border-radius: 5px;
-    height: 400px;
+    height: 650px;
 }
 /* About */
 .about .about-content
