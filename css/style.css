@@ -578,15 +578,39 @@ h3.my-profession
 .about .about-content .timeline .timeline-title
 {
     font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 21px;
+    margin-bottom: 0px;
     text-transform: capitalize;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-employment-type
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-address
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-position
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline .timeline-course
+{
+    font-weight: bold;
+    font-size: 14px;
     color: var(--text-black-900);
 }
 .about .about-content .timeline .timeline-text
 {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
     color: var(--text-black-700);
 }
